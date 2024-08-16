@@ -1,0 +1,9 @@
+﻿{
+  "applications": {
+    "BlazorUpdateTest": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44359",
+      "path": "../../BlazorUpdateTest/BlazorUpdateTest.csproj"
+    }
+  }
+}

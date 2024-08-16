@@ -1,0 +1,37 @@
+{
+  "id": "79ec6c66-5de5-44d7-9535-1d279d3259f2",
+  "template": "app-nolayers",
+  "versions": {
+    "AbpFramework": "8.2.1",
+    "AbpCommercial": "8.2.1",
+    "AbpStudio": "0.7.7"
+  },
+  "modules": {
+    "BlazorUpdateTest": {
+      "path": "BlazorUpdateTest.abpmdl"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+      "ignoredUrls": [
+        "^/metrics$"
+      ]
+    }
+  },
+  "creatingStudioConfiguration": {
+    "template": "app-nolayers",
+    "createdAbpStudioVersion": "0.7.7",
+    "uiFramework": "blazor-server",
+    "databaseProvider": "ef",
+    "databaseManagementSystem": "sqlserver",
+    "theme": "leptonx-lite",
+    "themeStyle": "",
+    "publicWebsite": "",
+    "socialLogin": ""
+  }
+}
